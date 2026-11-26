@@ -1,0 +1,1 @@
+import{r as t}from"./main-DlEAe4kI.js";const f=(e,r)=>{const[n,s]=t.useState(e),u=t.useRef(!0);return t.useEffect(()=>{if(u.current){u.current=!1,s(e);return}const o=setTimeout(()=>{s(e)},r);return()=>{clearTimeout(o)}},[e,r]),n};export{f as u};

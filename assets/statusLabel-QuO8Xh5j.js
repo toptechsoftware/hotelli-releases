@@ -1,0 +1,1 @@
+const t={HELD:"Reserved"},a=new Set(["of","for","and"]),c=r=>{if(!r)return"";const o=r.toUpperCase();return t[o]?t[o]:o.split("_").filter(Boolean).map((s,n)=>{const e=s.toLowerCase();return n>0&&a.has(e)?e:e.charAt(0).toUpperCase()+e.slice(1)}).join(" ")};export{c as s};

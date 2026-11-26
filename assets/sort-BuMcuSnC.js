@@ -1,0 +1,1 @@
+const n=new Intl.Collator(void 0,{numeric:!0,sensitivity:"base"}),e=(t,o)=>n.compare(String(t??""),String(o??"")),r=(t,o)=>[...t??[]].sort((s,a)=>e(o(s),o(a))),m=t=>r(t,o=>o.name),c=t=>r(t,o=>o.roomNumber);export{r as a,c as b,m as s};

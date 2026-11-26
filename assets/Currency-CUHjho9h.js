@@ -1,0 +1,1 @@
+import{aL as r,aM as s,aN as t}from"./main-DlEAe4kI.js";const c=async()=>{const e=await r();return await s({method:"GET",endpoint:t.Currency.GetAddChargeCurrencies,baseURL:e})},i=async e=>{const n=await r();return await s({method:"POST",endpoint:`${t.Currency.Convert}`,baseURL:n,data:e})};export{i as c,c as g};

@@ -1,0 +1,1 @@
+function a(t){const e=new Date(t);return new Date(e.getUTCFullYear(),e.getUTCMonth(),e.getUTCDate())}function n(t){return new Date(Date.UTC(t.getFullYear(),t.getMonth(),t.getDate()))}export{n as a,a as s};
